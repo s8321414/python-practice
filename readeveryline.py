@@ -3,5 +3,5 @@ file = open(sys.argv[1], 'r') # 將檔案設定為執行此 Python Script 後的
 while True: # while 迴圈
     line = file.readline() # 逐行讀入檔案
     if not line: break # 到最後一行時停止
-    print(line, end = '') # 印出每一行
+    print(line, end = '') # 印出每一行，最後一行以空白字元作結尾
 file.close() # 關閉檔案
